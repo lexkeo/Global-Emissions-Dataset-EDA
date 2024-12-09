@@ -27,23 +27,30 @@ This dataset offers a comprehensive view of global methane emissions, providing 
 - Data Cleaning and Preparation -Removed missing values and standardized data formats & Verified consistency across emission categories.
 - Exploratory Data Analysis (EDA) -Explored trends, distributions, and relationships between emission sources & Created visualizations to highlight key insights.
 
-# Exploratory Questions for Sustainability Analysis
+# Exploratory Questions and Answers for Sustainability Analysis
 1. Which region has the highest total methane emissions?
+Asia Pacific Region has the highest Emissions (kt).
 2. How do methane emissions vary across regions?
+Methane emissions vary significantly across regions, with higher emissions typically observed in areas with extensive agriculture and/or energy. Regions with less industrial activity or natural methane sources tend to have lower emissions.
 3. Which country emits the highest and lowest methane?
+The highest emissions is China and the lowest is Seychelles.
 4. What are the top 5 countries contributing to global methane emissions?
+China, United States, Russia, India and Brazil are the top 5 contributors to global methane emissions.
 5. Which sector contributes the most/least to methane emissions?
+The Energy section contributes to the most methane emissions and Other is the lowest contributer.
 6. How are emissions distributed across sectors in high-emission countries?
+Energy is the dominant sector contributing to emissions. For instance, China and India have the highest emissions in the Energy sector, while Agriculture is the largest contributor in Brazil and India. The Waste sector also contributes significantly, especially in countries like Brazil and the United States.
 7. Are there correlations between specific segments and reasons for emissions?
+Yes, certain activities are linked to specific types of methane emissions. For instance, "Steam Coal" produces the most overall emissions, while "Offshore Oil" and "Onshore Oil" create the most methane from burning gas, and "Gas Pipelines and LNG Facilities" lead to the highest amount of methane released intentionally.
 8. What are the most common reasons for methane emissions?
+The most common reasons for methane emissions in the dataset are "All," which occurs 746 times, followed by "Fugitive" and "Vented," both occurring 342 times, and "Flared," which occurs 118 times.
 9. Which sub-sector has the largest emissions globally?
+The sub-sector with the largest emissions globally is energy
 
 # Results and Recommendations
-- Dominance of the Energy Sector: The Energy sector is by far the largest contributor to global methane emissions. This includes emissions from oil and gas extraction, pipelines, and other energy-related activities. Given that Energy accounts for over 75% of the emissions, it's clear that addressing emissions from this sector will have the largest impact on reducing overall methane emissions.
-- Regional Emissions Distribution: The dataset shows that Africa is the largest regional contributor to methane emissions, followed by Europe and Asia Pacific. Africa, with its significant agricultural activity and increasing energy demands, plays a central role in the emissions landscape. Meanwhile, countries in Europe and Asia Pacific are major contributors, largely due to their advanced energy industries.
-- Sector-Specific Emissions: A significant portion of methane emissions comes from the Agriculture sector, particularly in developing countries where agriculture plays a key role in the economy. The Waste sector also contributes notably, especially with emissions from landfills and waste treatment facilities.
+- The Energy sector is by far the largest contributor to global methane emissions. This includes emissions from oil and gas extraction, pipelines, and other energy-related activities. Given that Energy accounts for over 75% of the emissions, it's clear that addressing emissions from this sector will have the largest impact on reducing overall methane emissions.
+- A significant portion of methane emissions comes from the Agriculture sector, particularly in developing countries where agriculture plays a key role in the economy. The Waste sector also contributes notably, especially with emissions from landfills and waste treatment facilities.
 - Fugitive vs. Vented Emissions: The analysis of emission types reveals that Fugitive emissions (those accidentally released, such as from leaks in oil and gas infrastructure) and Vented emissions (intentionally released from energy infrastructure) are major contributors. The dataset shows that a large portion of methane emissions come from these two categories, emphasizing the need for better management and capture technologies.
-- Emission Trends Over Time: The dataset spans several years (2019-2022), revealing fluctuations in emission levels. These fluctuations likely reflect both actual changes in emission sources (such as industrial activity or policy changes) and estimations in sectors where data is harder to track (like satellite-based emissions for large-scale oil and gas fields).
 - Disproportionate Contribution from Few Countries: While emissions are spread globally, a few countries (especially large emitters like the United States, Russia, and China) account for a disproportionate share of the total emissions. Focusing on emissions reduction in these countries could yield significant global reductions.
 - Recommendations for Action: To reduce methane emissions globally, efforts should focus on the Energy sector, specifically targeting fugitive emissions from oil and gas infrastructure, improving technologies and increase investment in renewable energy to curb emissions from fossil fuels. 
 
